@@ -1,0 +1,12 @@
+[eden-nightly-standard]
+repo-dlurl = "https://git.eden-emu.dev/eden-ci/nightly"
+repo-dlurl-host = "https://git.eden-emu.dev|forgejo"
+repo-dlurl-filter = "standard.apk"
+pkg-name = "dev.eden.eden_emulator.nightly"
+patches-source = "none"
+patches-source-host = "none"
+cli-source = "none"
+cli-source-host = "none"
+app-name = "eden-nightly"
+rv-brand = "none"
+build-mode = "apk"
