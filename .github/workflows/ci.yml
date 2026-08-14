@@ -1,8 +1,7 @@
 name: CI
 permissions: write-all
 on:
-  schedule:
-    - cron: "0 0/2 * * *" # Every 2 hours
+  
   workflow_dispatch:
 
 concurrency:
