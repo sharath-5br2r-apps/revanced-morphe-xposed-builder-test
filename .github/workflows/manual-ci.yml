@@ -73,7 +73,7 @@ jobs:
 
   trigger_website_update:
     needs: [build_manual, trigger_cleanup]
-    if: ${{ always() && needs.build_manual.result == 'success' }}
+    if: false #${{ always() && needs.build_manual.result == 'success' }}
     uses: ./.github/workflows/update-website.yml
     secrets: inherit
 
